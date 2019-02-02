@@ -1,4 +1,6 @@
 class AddSchedToShow < ActiveRecord::Migration[4.2]
   def change
-    add_column :
+    add_column :show, :day, :string 
+    add_column :show, :season, :string
+  end
 end
